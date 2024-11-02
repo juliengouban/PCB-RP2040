@@ -11,26 +11,26 @@ We developed the board on Kicad and had it manufactured on jpclb. It costs aroun
 <h1> Electronic diagram</h1>
 We'll now take a closer look at how our electronic board works: 
 
-![Alt text](picture/arduino1?raw=true "PCB in 3D view")
+![Alt text](picture/arduino1.png?raw=true "PCB in 3D view")
 
 For powering the circuit, we've used a Micro USB type B connector to supply our board with 5V. As the RP2040 uses 3.3V, we've fitted a regulator to convert 5V to +3.3V: 
 
-![Alt text](picture/arduino2?raw=true "PCB in 3D view")
+![Alt text](picture/arduino2.png?raw=true "PCB in 3D view")
 
 This is where you'll find the 128-megabit flash memory to store the program. The 2-pin connector allows you to force USB boot:
 
-![Alt text](picture/arduino3?raw=true "PCB in 3D view")
+![Alt text](picture/arduino3.png?raw=true "PCB in 3D view")
 
 The 12Mhz crystal provides the clock for our RP2040 microcontroller:
 
-![Alt text](picture/arduino4?raw=true "PCB in 3D view")
+![Alt text](picture/arduino4.png?raw=true "PCB in 3D view")
 
 
 We have added a LED to be programmed on GPIO18 to check that our card is working properly: 
-![Alt text](picture/arduino5?raw=true "PCB in 3D view")
+![Alt text](picture/arduino5.png?raw=true "PCB in 3D view")
 
 Finally, we have the RP2040 microncontroller. It is supplied with 3.3V with decoupling capacitors:
-![Alt text](picture/arduino6?raw=true "PCB in 3D view")
+![Alt text](picture/arduino6.png?raw=true "PCB in 3D view")
 
 
 <h1>PCB Design</h1>
@@ -43,11 +43,11 @@ A ground plane has been created on the TOP layer to connect all the GNDs togethe
 
 Here are the 3d and top layer views of the PCB:
 
-![Alt text](picture/arduino7?raw=true "PCB in 3D view")
+![Alt text](picture/arduino7.png?raw=true "PCB in 3D view")
 
 Here is a 3d view of the PCB:
 
-![Alt text](picture/arduino8?raw=true "PCB in 3D view")
+![Alt text](picture/arduino8.png?raw=true "PCB in 3D view")
 
 
 
